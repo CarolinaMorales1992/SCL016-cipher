@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Bungee;
+    src: url(BungeeInline-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src: url(BalsamiqSans-Regular.ttf);
+    font-weight: bold;
+}
+body{
+    background-image: url("13secreto_ampliacion1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    
+h1{
+    width: 774px;
+    height: 118px;
+    background: rgba(157, 189, 237, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Bungee;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.grupo1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button { 
+    width: fit-content;
+    margin-top: 20px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-family: Bungee;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.buttonstyle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+textarea {
+    width: 684px;
+    height: 227px;
+    background: #F3D4DA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input { 
+    width: 206px;
+    height: 79px;
+    background: #F3D4DA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+label {
+    margin-bottom: 20px;
+    font-family: Balsamiq;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFF7F7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,5 @@
+Mensajes misteriosos esta orientado a ser de uso rápido y sencillo, pensé en que los usuarios pueden ser desde niños hasta adultos que quieran cifrar un mensaje.
+El objetivo principal fue que la página fuera sencilla y con una interfaz fácil de entender para el usuario, se hicieron dos prototipos y se testearon con dos usuarios, en base a estos testeos se cambiaron de posición las casillas y los botones, pero se conservó la idea de una interfaz simple.
+Se creo un prototipo final en figma, que se implementó casi al 100% con código.
+Creo que el producto resuelve las necesidades del usuario al ser fácil de usar y de entender, así como de cifrar los mensajes de manera eficiente.
+El uso del cifrado es muy simple ya que hay dos ventanas para ingresar texto, una que cifra y otra que descifra, con sus respectivos botones y casillas para agregar el desplazamiento.

@@ -6,9 +6,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+  
+    <div id="root" class="container">
+      <div class="item">
+        <h1>Códigos Secretos</h1>
+      </div>
+
+      <div class="item">
+
+        <div class="grupo1">
+          <label for="cifrado">Ingrese el texto que desea cifrar:</label>
+          <textarea id="cifrado" rows="4" cols="50"></textarea>
+          <div class="buttonstyle">
+            <button id="codificar">Cifrar</button>
+          </div>
+        </div>
+
+        <div class="grupo1">
+          <label for="numero">Ingresa un número para tu clave</label>
+          <input type="number" id="numero" name="numero"/>
+        </div>
+        
     </div>
-    <script src="index.js" type="module"></script>
+      
+
+    <div class="item">
+      <div class="grupo1">
+        <label for="descifrado">Ingrese el texto que desea descifrar:</label>
+        <textarea id="descifrado" rows="4" cols="50"></textarea>
+        <div class="buttonstyle">
+          <button id="decodificar">Descifrar</button>
+        </div>
+      </div>
+      <div class="grupo1">
+        <label for="numero2">Ingresa la clave</label>
+        <input type="number" id="numero2" name="numero2"/>
+      </div>
+    </div>
+    
+
+    </div>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
